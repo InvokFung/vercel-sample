@@ -170,7 +170,7 @@ const handleLogin = async (req, res) => {
 
       // Generate refresh token
       // const refreshToken = jwt.sign(user, process.env.REFRESH_TOKEN_SECRET);
-
+ 
       console.log("User logged in successfully.");
       res.status(200).json({
         success: "User logged in successfully.",
